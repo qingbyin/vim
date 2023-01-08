@@ -17,7 +17,7 @@ let g:gitgutter_preview_win_floating = 1
 " Disable its default
 let g:gitgutter_map_keys = 0
 " hunk info 
-nmap <leader>gd  <Plug>(GitGutterPreviewHunk)
+nmap <leader>gd <Plug>(GitGutterPreviewHunk)
 " Stage hunk
 nmap gs <Plug>(GitGutterStageHunk)
 " Jump to previous/next hunk/chunk
