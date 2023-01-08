@@ -1,5 +1,6 @@
 " Mimic emacs magit
 call minpac#add('jreybert/vimagit')
+nmap <Leader>M :MagitOnly<cr>
 
 " Show git differ on the gutter
 call minpac#add('airblade/vim-gitgutter')
