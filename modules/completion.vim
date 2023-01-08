@@ -12,8 +12,9 @@ set cmdheight=2
 " Don't pass messages to |ins-completion-menu|.
 set shortmess+=c
 
-" Highlight the symbol and its references when holding the cursor.
+" Highlight the symbol and its references when holding the cursor
 autocmd CursorHold * silent call CocActionAsync('highlight')
+highlight CocHighlightText  guibg=#646470 ctermbg=223
 
 " Map function and class text objects
 " NOTE: Requires 'textDocument.documentSymbol' support from the language server.

@@ -5,6 +5,10 @@
 if !has('gui_running')
   set t_Co=256
 endif
+" Use highlight-guif
+" uses the colorscheme and *.vim's guibg/guifg values
+" to set the color highlighting rather than the cterm* values 
+set termguicolors
 
 " Globally enable syntax highlighting
 syntax enable
