@@ -15,12 +15,17 @@ call minpac#add('k-takata/minpac', {'type': 'opt'})
 runtime ./modules/theme.vim
 runtime ./modules/editor.vim
 runtime ./modules/git.vim
+runtime ./modules/completion.vim
 " Add other plugins here.
 " Vim syntax highlighting
 " call minpac#add('vim-jp/syntax-vim-ex')
 
+" Debug if vim is slow or broken
 " Check plugin performance
 call minpac#add('dstein64/vim-startuptime')
+" Debug coc
+" let g:node_client_debug = 1
+
 
 " keymappings for all
 runtime keymappings.vim

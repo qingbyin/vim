@@ -4,11 +4,6 @@ nmap <Leader>M :MagitOnly<cr>
 
 " Show git differ on the gutter
 call minpac#add('airblade/vim-gitgutter')
-" Immediately update signs
-set updatetime=100
-" By default the sign column will appear when there are signs to show and
-" disappear when there aren't. To always have the sign column
-set signcolumn=yes
 " Set SignColumn background color (same as the lineNumber bg color)
 highlight! link SignColumn LineNr
 " Modify sign background color

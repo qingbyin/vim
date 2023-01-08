@@ -38,3 +38,11 @@ set pumheight=10
 
 " Enable mouse in normal/visual/insert mode
 set mouse=nvi
+
+" Immediately update (default is 4000 ms = 4 s, too slow)
+" e.g. Immediately update gutter signs
+set updatetime=100
+
+" By default the sign column will appear when there are signs to show and
+" disappear when there aren't. To always have the sign column
+set signcolumn=yes
