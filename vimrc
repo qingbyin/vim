@@ -1,4 +1,8 @@
 " vim:ft=vim
+" Use VIM settings rather than Vi settings; this *must* be first in .vimrc
+" Only for vim (neovim removed Vi compatible by default)
+set nocompatible
+
 " Load basic config files
 runtime basic_config.vim
 

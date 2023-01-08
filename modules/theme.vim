@@ -30,6 +30,8 @@ set laststatus=2
 set showtabline=2
 " Hide the mode info, e.g. -- NORM --
 set noshowmode
+" Show pressed keys on the right bottom
+set showcmd
 " Config the bottom modeline and the top tabline
 let g:lightline = {
       \ 'colorscheme': 'one',

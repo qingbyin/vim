@@ -1,5 +1,5 @@
 " Basic config, i.e. build-in parameters without plugins
-"
+
 " Tab settings
 set expandtab  " Convert tab to spaces automatically
 set tabstop=4  " 1 tab = 4 spaces

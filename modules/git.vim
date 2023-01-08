@@ -1,6 +1,7 @@
 " Mimic emacs magit
 call minpac#add('jreybert/vimagit')
 nmap <Leader>M :MagitOnly<cr>
+let g:magit_refresh_gitgutter = 1
 
 " Show git differ on the gutter
 call minpac#add('airblade/vim-gitgutter')
@@ -16,7 +17,7 @@ let g:gitgutter_preview_win_floating = 1
 " Disable its default
 let g:gitgutter_map_keys = 0
 " hunk info 
-nmap <Leader>gd  <Plug>(GitGutterPreviewHunk)
+nmap <leader>gd  <Plug>(GitGutterPreviewHunk)
 " Stage hunk
 nmap gs <Plug>(GitGutterStageHunk)
 " Jump to previous/next hunk/chunk
